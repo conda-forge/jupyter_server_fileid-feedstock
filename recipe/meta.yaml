@@ -1,5 +1,5 @@
 {% set name = "jupyter_server_fileid" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 340e86b45875d51a60e0e93d8d3bcb609c2bc8d315ec07c003f36d561f637c0e
+  sha256: 1e0816d0857f490fadea11348570f0cba03f70f315c9842225aecfa45882b6af
 
 build:
   number: 0
