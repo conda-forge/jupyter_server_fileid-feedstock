@@ -1,11 +1,11 @@
-About jupyter_server_fileid
-===========================
+About jupyter_server_fileid-feedstock
+=====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyter_server_fileid-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/jupyter-server/jupyter_server_fileid
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyter_server_fileid-feedstock/blob/main/LICENSE.txt)
 
 Summary: A Jupyter Server extension providing an implementation of the File ID service.
 
