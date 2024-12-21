@@ -6,11 +6,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: ffb11460ca5f8567644f6120b25613fca8e3f3048b38d14c6e3fe1902f314a9b
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
@@ -19,10 +19,10 @@ build:
 requirements:
   host:
     - hatchling >=1.0
-    - python >=3.7
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - jupyter_server >=1.15,<3
     - jupyter_events >=0.5.0
 
@@ -31,6 +31,7 @@ test:
     - jupyter_server_fileid
   requires:
     - pip
+    - python {{ python_min }}
   commands:
     - pip check
 
