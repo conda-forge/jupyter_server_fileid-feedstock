@@ -11,7 +11,6 @@ Summary: A Jupyter Server extension providing an implementation of the File ID s
 
 A Jupyter Server extension providing an implementation of the File ID service.
 
-
 Current build status
 ====================
 
