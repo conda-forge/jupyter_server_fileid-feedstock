@@ -11,7 +11,6 @@ Summary: A Jupyter Server extension providing an implementation of the File ID s
 
 A Jupyter Server extension providing an implementation of the File ID service.
 
-
 Current build status
 ====================
 
@@ -194,7 +193,4 @@ Feedstock Maintainers
 * [@davidbrochart](https://github.com/davidbrochart/)
 * [@dlqqq](https://github.com/dlqqq/)
 * [@fcollonval](https://github.com/fcollonval/)
-
-
-<!-- dummy commit to enable rerendering -->
 
